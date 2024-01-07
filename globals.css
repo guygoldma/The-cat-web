@@ -1,0 +1,101 @@
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #b4f2b3;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color: #4CAF50;
+  font-size: 2.5rem;
+}
+
+main {
+  margin-top: 20px;
+}
+
+section {
+  text-align: justify;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+#wiki {
+  display: block;
+  margin: 20px auto;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 1000px;
+}
+
+iframe {
+  width: 100%; /* Set the width to 100% for responsiveness */
+  max-width: 2000px; /* Set a maximum width to avoid being too wide on larger screens */
+  border: none;
+  height: 500px;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #4CAF50;
+}
